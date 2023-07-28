@@ -9,6 +9,7 @@ import SignIn from "./components/pages/SignIn";
 import AdminHome from "./AdminDashboard/AdminHome";
 import UserHome from "./UserDashboard/UserHome";
 import ErrorPage from "./components/ErrorPage";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="*" element={<Navigate to="/ErrorPage" replace />} />
         </Routes>
       </div>
+      <Footer/>
     </div>
   );
 };
