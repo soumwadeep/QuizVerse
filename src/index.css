@@ -1,9 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
 body {
   font-family: Georgia;
   background-color: #130f40;
   background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
   background-attachment: fixed;
   color: white;
+  font-family: "Itim", cursive;
+  overflow-x: hidden;
 }
 
 img {
@@ -14,4 +18,51 @@ img {
 input,
 textarea {
   background: transparent !important;
+}
+
+/* Custom CSS */
+.logo {
+  width: 32px;
+}
+
+.navbar {
+  background-color: inherit;
+  -webkit-box-shadow: 0px 7px 10px -2px rgba(245, 56, 3, 1);
+  -moz-box-shadow: 0px 7px 10px -2px rgba(245, 56, 3, 1);
+  box-shadow: 0px 7px 10px -2px rgba(245, 56, 3, 1);
+  margin-bottom: 20px;
+}
+
+.menu_active {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #f53803;
+}
+
+.offcanvas {
+  background-color: #130f40;
+  background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+  background-attachment: fixed;
+  color: white;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  border: 2px solid white;
+  color: #f53803 !important;
+  padding: 10px;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
 }
